@@ -1,0 +1,172 @@
+body {
+    background-color: black;
+    margin: 50px;
+}
+
+/* แบบ Grouping selector */
+header,
+section ,
+footer{
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    background-color: #031420;
+}
+
+/* แบบ Element Selector */
+header {
+    background-image: url(../image/aa.jpg);
+    height: 250px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* แบบ ID Selector */
+#box-head {
+    padding: 20px;
+    margin: 0;
+    
+    border: 1px solid black;
+    
+
+}
+
+/* แบบ ID Selector */
+#btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    background-color: #f6a70f;
+}
+
+/* ---------------- แบบ Pseudo class -------------------- */
+#btn:link{
+    color: white;
+    font-weight: bold;
+    background-color: #FBB917;
+    
+}
+#btn:visited{
+    color: #000;
+    font-weight: bold;
+    background-color: #f6a70f;
+}
+#btn:hover{
+    color: white;
+    border: 1px solid #B8860B;
+    font-weight: bold;
+    background-color: transparent;
+}
+#btn:active{
+    color: white;
+    font-weight: bold;
+    background-color: #FBB917;
+}
+
+article h2:hover{
+    color: #B8860B;
+}
+/* ---------------- แบบ Pseudo class -------------------- */
+
+
+/* แบบ ID Selector */
+#move {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+
+}
+
+/* แบบ Element Selector */
+h1{
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+/* แบบ ID Selector */
+#pra{
+    color: #A9A9A9;
+    text-align: left;
+}
+
+
+/* แบบ ID Selector */
+#art {
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: #DCDAD4;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 40px;
+    height: 700px;
+    word-wrap: break-word;
+
+
+}
+
+/* แบบ Class Selector */
+.image1 {
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+/* แบบ Class Selector */
+.image2 {
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+   
+
+
+}
+
+/* แบบ Contextual Selector */
+article h2{
+    color: black;
+    font-size: 150%;
+    
+}
+
+
+/* แบบ Class Selector */
+.pra2{
+   padding: 10px;
+   
+    
+}
+
+/* แบบ Pseudo Element */
+#myH::first-letter{
+    color: #B8860B;
+
+}
+
+/* แบบ Element Selector */
+footer {
+   
+    
+    padding: 5px;
+    color: white;
+    background-color: #29465B;
+
+}
+
+
+/* แบบ Universal Selector */
+*{
+    font-family: sans-serif;
+}

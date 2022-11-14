@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Prompt;
+    src: url(../font/Prompt\ Regular.ttf);
+}
+body{
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0px;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+header{
+    padding: 10px;
+    background-color: #2C3639;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+
+.menu ul {
+    text-align: center;
+    display: flex;
+    
+    
+    
+}
+.menu ul li{
+    box-sizing: border-box;
+    list-style-type: none;
+    padding-right: 50px;
+    font-size: 1.2em;
+    
+}
+
+nav{
+   
+    margin-top: 70px;
+    padding: 30px;
+    background-color: #3F4E4F;
+    width: 20%;
+    
+}
+section{
+    margin-top: 70px;
+    padding: 20px;
+    background-color: #DCD7C9;
+    width: 80%;
+    color: black;
+}
+.menubra{
+    
+    background-color: #A27B5C;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+footer{
+    display: block;
+    background-color: #2C3639;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    
+  }
+
+article{
+    float: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    
+}
+
+article p:first-of-type{
+    text-indent: 40px;
+}
+
+.container{
+    display: flex;
+}
+
+.container2{
+    display: flex;
+}
+.container2  iframe{
+    width: 40%;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+    color: #A27B5C;
+}
+h4{
+    margin: 0px;
+}
+.box{
+    padding: 10px;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-left: auto;
+}
+#img1{
+    
+    width:100%;
+}
+
+.box p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h3{
+    
+    margin: 0px;
+}
+
+nav h3{
+    font-size: 15px;
+    margin-top: 1px;
+    background-color: #DCD7C9;
+    padding: 15px;
+    color: #000;
+   
+}
+
+nav h3:hover{
+   
+        font-size: 15px;
+        margin-top: 1px;
+        background-color: rgb(66, 91, 61);
+        padding: 15px;
+        color: white;
+       
+    
+}
+
+.step{
+    padding-left: 20px;
+}
+
+.step:hover{
+    padding-left: 20px;
+    color: rgb(18, 79, 6);
+}
+
+.menubra  h3 a{
+    color: #000;
+    padding: 0px;
+}
+
+
+
+
+.menubra a h3{
+    margin: 0px;
+}
+
+
+
+.menubra h3 a:hover{
+    color: white;
+}
+
+

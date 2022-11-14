@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+   
+        <header>
+            <nav>
+                <h1 id="head">CSS Font Design</h1>
+    
+                <ul>|
+                    <a class="menu" href="index.html"><li>Home</li> </a> |
+                    <a class="menu" href="#"><li>About Me</li></a> |
+                    <a class="menu" href="#"><li>Contact</li></a> |
+                </ul>
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+            </nav>
+        </header>
+    <section id="sec3">
+        <article class="art" id="art1">
+            <p style="text-indent: 30px;">Web font embedding services
+                Google Web Fonts (GWF) or Typekit are systems which allow the use of fonts hosted on their servers. GWF
+                is free to use, does not require you to have an account, and has no limit on traffic or domains unlike
+                Typekit. Typekit sets the cost of the service according to the number of domains in which the font is
+                used, or the site’s monthly traffic. One of the most valued characteristics of GWF is the option to
+                download a desktop version of the fonts for use in the project design phase.
+            </p>
+            <h3>Implementation</h3>
+            <p>It really is quick and simple: <br>
+                1. Choose a font. You can add it to your collection or use “quick-use” to generate the code and options
+                for that font. <br>
+                2. Copy and paste the code generated into your</p>
+
+
+            <Head>
+
+                <img src="image/pig1.png" alt="">
+                <p>3. The font is now accessible in your CSS code</p>
+                <img src="image/pig2.png" alt="">
+                <p style="text-indent: 30px;">Here you can consult a extended manual for styles, script subsets, and
+                    using multiple fonts. <br>
+                    Top recommended fonts from Google Web Fonts
+                    You will find many unfavorable reviews about the quality of GWF’s fonts and the amateur nature of
+                    many typefaces. We must remember that Google Web Fonts is a collaborative open source project, but
+                    many people think still there should be a higher level of quality control.
+                </p>
+                <div class="float-container">
+
+                <div class="font">
+                    <h3><span class="dot"></span> Open Sans</h3>
+                    <a href="https://fonts.google.com/" target="blank"><img src="image/opensans.jpg" alt=""></a>
+                </div>
+
+                <div class="font">
+                <h3><span class="dot"></span>Josefin Slab</h3>
+                <a href="https://fonts.google.com/" target="blank"><img src="image/josefin.jpg" alt=""></a>
+                </div>
+                
+
+                <div class="font">
+                <h3><span class="dot"></span>Arvo</h3>
+                <a href="https://fonts.google.com/" target="blank"><img src="image/arvo.jpg" alt=""></a>
+                </div>
+
+
+                <div class="font">
+                <h3><span class="dot"></span>Lato</h3>
+                <a href="https://fonts.google.com/" target="blank"><img src="image/lato.jpg" alt=""></a></div>
+
+
+
+                <div class="font">
+                <h3><span class="dot"></span>Vollkorn</h3>
+                <a href="https://fonts.google.com/" target="blank"><img src="image/vollkorn.jpg" alt=""></a>
+                </div>
+
+
+                <div class="font">
+                <h3><span class="dot"></span>Abril Fatface</h3>
+                <a href="https://fonts.google.com/" target="blank"><img src="image/abril.jpg" alt=""></a></div>
+
+                <div class="font">
+                <h3><span class="dot"></span>Ubuntu</h3>
+                <a href="https://fonts.google.com/" target="blank"><img src="image/ubuntu.jpg" alt=""></a>
+                </div>
+
+                <div class="font">
+                <h3><span class="dot"></span>PT Sans + PT Serif</h3>
+                <a href="https://fonts.google.com/" target="blank"><img src="image/ptsan.jpg" alt=""></a>
+                </div>
+
+                <div class="font">
+                <h3><span class="dot"></span>Old Standard TT</h3>
+                <a href="https://fonts.google.com/" target="blank"><img src="image/old.jpg" alt=""></a>
+                </div>
+
+                <div class="font">
+                <h3><span class="dot"></span>Droid Sans</h3>
+                <a href="https://fonts.google.com/" target="blank"><img src="image/droid.jpg" alt=""></a>
+            </div>
+        </div>
+        </article>
+
+        <article class="art" id="art2" >
+            <h4>Embedding fonts using the @font-face rule</h4>
+            <p>Fonts are hosted on the user’s server independently of external services. @font-face was a deprecated
+                CSS2 rule that has been re-introduced in CSS3 specifications and is supported by almost all modern
+                browsers. A web font is a customized font which is supported by different browers and comes in formats
+                such as TTF, WOFF, EOT and SVG. There are many fonts available for @font-face embedding, but we are
+                going to bring you a selection of the web fonts available on FONT SQUIRREL which are free to use and
+                includeprepackaged @font-face kits with the required formats, CSS and HTML code.Font Squirrel also
+                offers the fantastic “@Font-Face Generator” tool, which can convert your desktop font into the
+                appropriate format so you can use it as a web font. Implementation of web fonts with the @font-face
+                rule. <br>
+                1. Select your favorite font from Font Squirrel. <br>
+                2. Download the @font-face kit and test the sample code in stylesheet.css and demo.html files. All the
+                font formats must be uploaded to your server
+            </p>
+            <article id="art_ff">
+                <p>
+                    @font-face { <br>
+                        font-family: 'ChunkFiveRegular'; <br>
+                        src: url('Chunkfive-webfont.eot'); <br>
+                        src: url('Chunkfive-webfont.eot?#iefix') format <br>('embedded-opentype'),<br>
+                        url('Chunkfive-webfont.woff') format('woff'), <br>
+                        url('Chunkfive-webfont.ttf') format('truetype'), <br>
+                        url('Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');<br>
+                        font-weight: normal;<br>
+                        font-style: normal;<br>
+               }
+               
+                </p>
+            </article>
+        </article>
+
+        
+
+
+
+        <div class="nextt">
+            <a id="pre" href="page1.html" class="pre">&laquo Previous</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Web Design Technologies</p>
+        <div class="social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

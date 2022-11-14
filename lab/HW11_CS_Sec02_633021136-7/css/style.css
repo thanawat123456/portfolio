@@ -1,0 +1,128 @@
+@font-face {
+    font-family: bebas;
+    src: url(../font/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: marker;
+    src: url(../font/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+    font-family: sov;
+    src: url(../font/SOV_TaBang/SOV_TaBang.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D4F1F4;
+}
+
+header {
+    background-color: #05445E;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px;
+    color: white;
+    font-family: marker;
+}
+
+.menu {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+.main {
+    float: left;
+    width: 70%;
+    padding: 0 20px;
+}
+
+.right {
+    background-color: white;
+    float: left;
+    width: 30%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: left;
+    margin-top: 0;
+    height: auto;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+
+.right h2{
+    text-align: center;
+}
+span {
+    font-weight: bold;
+}
+.right img{
+    max-width: 100%;
+}
+
+
+
+#art2 img{
+    max-width: 50%;
+}
+
+
+footer{
+    clear: both;
+    background-color: #189AB4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+section{
+    background-color: #D4F1F4;
+}
+section h2{
+    color: #05445E;
+}
+.art{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.skills img {
+    max-width: 80px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 620px) {
+     .main, .right {
+        width: 100%;
+    }
+    #art2 img{
+        max-width: 100%;
+    }
+
+}

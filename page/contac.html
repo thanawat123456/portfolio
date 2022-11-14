@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="stylesheet" href="../css/style3.css">
+  <title>Contact</title>
+
+
+  <style>
+    .home {
+      background-color: #0F161C;
+    }
+
+    .header {
+      margin-bottom: 15px;
+    }
+    .top{
+      margin-top: 0;
+    }
+ 
+  </style>
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="../index.html" class="nav-logo">
+          <h1>Portfolio</h1>
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link ">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../page/aboutme.html" class="nav-link ">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="../page/assignment.html" class="nav-link ">Assignment</a>
+          </li>
+          <li class="nav-item">
+            <a href="../page/exper.html" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="../page/contac.html" class="nav-link active">Contact</a>
+          </li>
+          
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!--  contact -->
+<section class="home">
+  <section class="contact top">
+    <div class="container flex">
+      <div class="left">
+       
+        <div class="heading">
+          <div class="heading_bottom">
+            <h2><span> </span></h2>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15303.840945813681!2d102.80662550781248!3d16.477551000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31228b5acad3221b%3A0xf971ecde5fb0af3e!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4LiC4Lit4LiZ4LmB4LiB4LmI4LiZ!5e0!3m2!1sth!2sth!4v1665166366891!5m2!1sth!2sth" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="heading">
+          <div class="heading_top flex">
+            <div class="line"></div>
+            <div class="line line2"></div>
+            <i class="fas fa-circle"></i>
+            <h3>Any Question? </h3>
+          </div>
+          <div class="heading_bottom">
+            <h2><span>Contact </span></h2>
+          </div>
+        </div>
+
+
+        <form class="mtop">
+          <div class="input grid">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Phone">
+          </div>
+          <textarea name="name" rows="5" cols="80"> Message</textarea>
+          <button class="btn2 btn3">Send Message</button>
+        </form>
+      </div>
+  </section>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="logo">
+     
+    </div>
+
+    <div class="boxxx">
+      <div class="box boxx1">
+        <h4>About</h4>
+        I am a 3rd-year student. I am ready to learn to work on new things. that I have not yet met And I'm always
+        looking for something challenging.
+      </div>
+
+      
+
+      <div class="box boxx2">
+        <h4>Links</h4>
+        <ul>
+          <a href="../index.html"><li>Home</li></a>
+          <a href="../page/aboutme.html"><li>About Me</li></a>
+         <a href="../page/assignment.html"> <li>Assignment</li></a>
+         <a href="../page/exper.html"> <li>Experience</li></a>
+          <a href="../page/contac.html"><li>Contact</li></a>
+        </ul>
+      </div>
+
+     
+        <div class="text boxx3">
+          <span>0928531478</span><br>
+          <label>thanawat.sai@kkumail.com</label><br>
+          <p>10 village No.10 Nasai Sub-district, Pibunrak District, Udon Thani Province, 41130</p>
+          <ul class="icons">
+            <a href="https://line.me/ti/p/HQh5tMfLWK" target="_blank">
+                <i class="fab fa-line"></i>
+            </a>
+            <a href="https://www.facebook.com/thanawat.saiyotha" target="_blank">
+  
+               <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/es_.thanawat/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+               <i class="fab fa-instagram"></i>
+            </a>
+        </ul>
+        </div>
+
+       
+      </div>
+    </div>
+
+    <div class="legal">
+      <div class="box">
+        <p>&copy; THANAWAT SAIYOTA Web Design Technologies.</p>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+</footer>
+
+<script>
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector(".nav-menu");
+
+  hamburger.addEventListener("click", mobileMenu);
+
+  function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  }
+
+
+  window.addEventListener("scroll", function () {
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  })
+</script>
+
+</body>
+
+</html>

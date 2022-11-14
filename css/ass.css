@@ -1,0 +1,127 @@
+
+section{
+    font-size: 62.5%;
+    padding: 0rem 10% 5rem;
+}
+section p{
+    font-size: 62.5%;
+}
+::selection{
+    color: #fff;
+    background: #20C863;
+  }
+.headin{
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #fff;
+    border-bottom: 1px solid #20C863 ;
+    width: max-content;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.heading{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+.heading_top{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+ }
+ h2{
+    margin: 0;
+ }
+.blog .box-container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem; 
+      
+}
+
+.blog .box-container .box:hover .image img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.blog .box-container .box.shadow{
+   
+}
+
+.blog .box-container .box .image{
+    height: 18rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; 
+}
+
+.blog .box-container .box .image h3{
+    background-color: #fff;
+    color: #444;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+
+.blog .box-container .box .content{
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.blog .box-container .box .content h3{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.blog .box-container .box .content p{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: #777;
+}
+.content p{
+    margin-bottom: 40px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: 0.1rem solid #bd18b4;
+    background: #ffeeff;
+    color: #bd18b4;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    background: #bd18b4;
+    color: #ffeeff;
+}
+
+.blog .box{
+    background-color: white;
+    width: 90%;
+}
+
+.btn2{
+    font-size: 1.7rem;
+}

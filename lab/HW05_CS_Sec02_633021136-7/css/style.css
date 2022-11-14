@@ -1,0 +1,187 @@
+
+@import url('../css/fonts.css');
+
+/* กำหนดพื้นหลังและ magin ส่วนแม่ */
+body{
+    background-color: white;
+    margin: 0px;
+}
+
+/* แบบ Element Selector */
+header{
+   
+    background-color: #20B2AA;
+    color: white;
+    padding: 10px;
+}
+
+/* แบบ Element Selector */
+section{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    background-color: white;
+   
+}
+
+/* แบบ Contextual Selector และเลือกแบบ Pseudo Element เพื่อให้ตัวแรกเปลี่ยนสีและใหญ่ขึ้น*/
+header h1::first-letter{
+    font-size: 120%;
+    color: #F2BB66;
+}
+
+/* แบบ Class Selector */
+.section1{
+    background: url('../image/b3.jpeg');
+    background-size: cover;
+    text-align: center;
+    height: 80vh;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+    color: white;
+
+}
+
+/* แบบ Class Selector */
+.section2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+/* แบบ Class Selector */
+.social{
+    margin-left: 3%;
+   
+    padding-right: 50px;
+    
+}
+
+/* แบบ Class Selector */
+.social i{
+    padding: 0.2rem;
+    color: white;
+}
+
+/* แบบ Class Selector และเลือกแบบ Pseudo class ด้วยเพื่อเปลี่ยนสีตัวหนังสือ*/
+.social i:hover{
+    color: #f6d365;
+}
+
+/* แบบ Class Selector */
+.artIndex{
+    font-size: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+   
+}
+
+/* แบบ Element Selector */
+button{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* แบบ Class Selector และเลือกแบบ Contextual Selector เพื่อที่จะเข้าถึงลูกของมัน */
+.section2 ul li a{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/* แบบ Pseudo class */
+button:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+img{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+    display: block;
+}
+
+/* แบบ Element Selector */
+a{
+    text-decoration: none;
+    color: red;
+}
+
+/* แบบ Element Selector */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10;
+    margin-right: 10px;
+    
+   
+  }
+
+  /* แบบ Contextual Selector */
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    
+    margin-left: auto;
+    
+}
+
+/* แบบ Contextual Selector */
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+    width: 100px;
+    background-color: #F2BB66	;
+}
+
+/* แบบ Contextual Selector และเลือกแบบ Pseudo class ด้วยเพื่อเปลี่ยนพื้นหลัง*/
+nav ul li:hover{
+   
+    background-color: #FFA62F	;
+    
+}
+
+/* แบบ Contextual Selector*/
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* แบบ Element Selector */
+footer{
+    margin-top: 0px;
+    text-align: center;
+    background-color: #20B2AA;
+    color: white;
+    padding: 30px;
+}
+
+/* แบบ Class Selector */
+.art4>p:first-of-type{
+    font-style: italic;
+    color: grey;
+    font-size: 20px;
+}

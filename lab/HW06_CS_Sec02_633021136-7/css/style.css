@@ -1,0 +1,280 @@
+@font-face {
+    font-family: bebas;
+
+    src: url(../font/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: lic;
+    src: url(../font/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+    background-color: #f9e6ff;
+}
+
+header, footer {
+    margin-top: 0px;
+    background-color: #8000ff;
+    color: white;
+
+
+}
+
+nav {
+
+    display: flex;
+}
+
+#head {
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: lic;
+
+}
+
+
+header ul {
+   
+    margin-right: auto;
+    margin-top: 1.5em;
+    list-style-type: none;
+}
+
+header ul li { 
+    font-family: sans-serif;
+    display: inline;
+    padding: 10px;
+    color:white;
+    
+}
+
+
+
+.menu{ 
+    text-decoration: none;
+}
+
+
+
+header ul li:hover {
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ff5000;
+}
+
+.social {
+    margin-top: 1.5em;
+    margin-right: 2em;
+}
+
+.social a {
+    padding: 5px;
+    color: white;
+}
+.social a:hover {
+    
+    padding: 5px;
+    color: yellow;
+}
+
+#sec1 {
+    margin-top: 0px;
+    background: url(../image/bg4.jpeg);
+    height: 80vh;
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 2em;
+
+}
+
+#sec1 h1 {
+    font-family: bebas;
+    font-size: 3em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    font-family: lic;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff;
+    background: #ff5000;
+    line-height: 1.15;
+    font-size: 16px;
+
+}
+
+button:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #fff;
+}
+
+footer p {
+    font-family: sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer .social {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+#para1 {
+
+    font-family: sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    font-size: 0.5em;
+}
+
+#sec2 {
+    background-color: #f9e6ff;
+    margin: 0px;
+}
+
+.art {
+    box-shadow: 5px 5px #888888;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    border-radius: 1em;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+span{
+    font-weight: bold;
+}
+
+.f1 {
+    font-size: xx-small;
+}
+
+.f2 {
+    font-size: x-small;
+}
+
+.f3 {
+    font-size: small;
+}
+
+.f4 {
+    font-size: medium;
+}
+
+.f5 {
+    font-size: large;
+}
+
+.f6 {
+    font-size: x-large;
+}
+
+.f7 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: lic;
+}
+
+p {
+    
+    font: 1em sans-serif;
+}
+
+.nextt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#next:hover {
+    font-size: 1.5em;
+    background-color: transparent;
+        transition: all .1s ease;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+    
+}
+img{
+    width: 370px;
+}
+#next {
+    font-family: sans-serif;
+    width: 100px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #000021;
+    background: #1de9b6;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+#pre:hover {
+    font-size: 1.5em;
+    background-color: transparent;
+        transition: all .1s ease;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+    
+}
+
+#pre {
+    font-family: sans-serif;
+    width: auto;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #000021;
+    background: #1de9b6;
+    line-height: 1.15;
+    font-size: 16px;
+}
+    
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block; 
+}
+
+
+.float-container div{
+    display: inline-block;
+    padding: 20px;
+   
+}
+
+#art_ff{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+

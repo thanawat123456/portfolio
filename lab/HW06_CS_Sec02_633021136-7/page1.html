@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 id="head">CSS Font Design</h1>
+
+            <ul>|
+                <a class="menu" href="index.html"><li>Home</li> </a> |
+                <a class="menu" href="#"><li>About Me</li></a> |
+                <a class="menu" href="#"><li>Contact</li></a> |
+            </ul>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </nav>
+    </header>
+    <section id="sec2">
+       
+        <article class="art" id="art1">
+            <h2 style="margin-top: 0px;">The font-size Property</h2>
+            <p class="1">The font-size property can be set for any HTML tag (even if it would not normally contain
+                textual content like br). It can be assigned a variety of absolute, relative, or length size parameters.
+            </p>
+            <p class="2">An element will inherit the font-size of its parent unless you override it. This is especially
+                important when you specify relative sizes.</p>
+            <p></p>
+        </article>
+        <article class="art" id="art2">
+            <h2>Asolute Font Sizing Keywords</h2>
+            <p class="para3">Several absolute font-sizing keywords are available. The font size is determined from a
+                browser preset and the element will not inherit its parent’s size.</p>
+
+            <ul>
+                <li class="f1">font-size: xx-small;</li>
+                <li class="f2">font-size: x-small;</li>
+                <li class="f3">font-size: small;</li>
+                <li class="f4">font-size: medium;</li>
+                <li class="f5">font-size: large;</li>
+                <li class="f6">font-size: x-larrge;</li>
+                <li class="f7">font-size: xx-large;</li>
+            </ul>
+
+            <p>Although most browsers support these keywords, the exact sizes will differ. They are a fairly crude
+                method of font sizing and are generally avoided by most developers.</p>
+        </article>
+
+        <article class="art" id="art3">
+            <h2>Relative Font Sizing Keywords</h2>
+            <p>Two relative font-sizing keywords are available. The font is sized according to its parent element:</p>
+            <ul>
+                <li>font-size: smaller;</li>
+                <li>font-size: larger;</li>
+            </ul>
+            <p>For example, if the parent has a font size of ‘medium’, a value of ‘larger’ will set the element to
+                ‘large’. Other font units are normally altered by a factor of around 1.2 but, again, there is no
+                standard and browser results will differ.</p>
+        </article>
+
+        <article class="art" id="art4">
+            <h2>Absolute Lengths</h2>
+            <p>The font-size property can be assignen an absolute length:</p>
+            <ul>
+                <li><span>mm: </span>millimeters, e.g. 10mm.</li>
+                <li><span>cm:</span>centimeters, e.g. 1cm (=10mm).</li>
+                <li><span>in:</span>inchs, e,g 0.39in (~=10mm).</li>
+                <li><span>pt: </span>point, where 1pt is gennerally assumed to be 1/72 inch e.g. 12pt.</li>
+                <li><span>pc: </span>pica, where 1px is 12pt</li>
+                <li><span>px: </span>pixel, e.g 14px.</li>
+            </ul>
+        </article>
+
+        <article class="art" id="art5">
+            <h2>Relative Lengths</h2>
+            <p>The font-size property can be assigned a unit that it relative to its parent’s font size:</p> <br>
+            <ul>
+                <li><span>em: </span>1em is equivalent to the current font size, so 2em is twice as large.</li>
+                <li><span>%: </span>100% is equivalent to the current font size, so 200% is twice as large.</li>
+                <li><span>ex: </span>1ex is equivalent to the height of the letter ‘x’ in the current font.
+                    Few developers use ‘ex’, but it can be useful in some situations where you need fine-grained font sizes, e.g. 1ex rather than 0.525em.
+                    </li>
+                    <br>
+                    <p>Percentage and ‘em’ sizes are equivalent, e.g. 50% = 0.5em, 100% = 1em, 120% = 1.2em, etc. Some browsers exhibit subtle differences but it’s rarely a major problem. If you want to save every byte, you could choose the shortest definition, i.e. 50% is shorter than 0.5em and 1em is shorter than 100%.</p>
+            </ul>
+
+        </article>
+
+        <article class="art" id="art6">
+            <h2>Text Sizing and Page Zooming</h2>
+            <p>This is where additional complexity creeps in. Most browsers allow the user to:</p><br>
+            <ol>
+                <li>increase or decrease the base text size (image dimensions are not changed)</li>
+                <li>zoom the page in or out so all the text and graphics change accordingly, or</li>
+                <li>allow both text sizing and page zooming.</li>
+            </ol>
+            <br>
+            <p>Just to complicate matters further, Internet Explorer does not allow text resizing on elements which have a font size defined in pixels (px).</p>
+            <br>
+            <p>If you’re a designer moving to the web from a print background, it’s disconcerting to give the user that much power. Your design could be ruined by a user zooming in 200% but reducing the text size to 50%. And — no — there is nothing you can do to prevent it. Nor should you.</p>
+
+        </article>
+
+        <article class="art" id="art7">
+
+            <h2>CSS Font Sizing Recommendations</h2>
+            <p>The general consensus is that ‘em’ or ‘%’ is the best solution in most situations. Fonts can be finely scaled relative to each other and browser text sizing is supported. I would also recommend using a percentagefont-size on the body tag; it results in better text-sizing in some older browsers.</p><br>
+            <p>There are a couple of other recommendations I would suggest when you’re developing a site:</p><br>
+            <ol>
+                <li>reset the font size and page zoom to their default values in all your browsers before testing (it’s caught me out a few times!)</li>
+                <li>try reasonable combinations of text sizing and page zooming in a variety of browsers to ensure the text remains readable.</li>
+            </ol>
+           
+        </article>
+        <br>
+        
+        <div class="nextt">
+            <a id="next" href="page2.html" class="next">Next &raquo;</a>
+        </div>
+       
+ 
+
+        
+    </section>
+    <footer>
+        <p>&copy; Web Design Technologies</p>
+        <div class="social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

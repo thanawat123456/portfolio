@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        header,
+        section,
+        article,
+        footer {
+            margin: 10px;
+            border: 1px solid grey;
+            padding: 5px;
+            background-color: white;
+
+        }
+
+        header {
+            background-color: #FFA62F;
+            color: white;
+            padding-left: 20px;
+        }
+
+        section {
+            background-color: #FFE87C;
+
+        }
+
+        section article {
+            background-color: white;
+            padding: 10px;
+
+        }
+
+        article aside {
+            display: inline-block;
+
+
+        }
+
+        article aside h2 {
+
+            margin-left: 50px;
+
+        }
+
+
+        footer {
+            background-color: #FFA62F;
+            color: white;
+            padding-left: 10px;
+            clear: both;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 10px;
+        }
+
+        canvas {
+
+            border: 1px solid gray;
+            margin-bottom: 50px;
+            margin-left: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Assignment#2</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Menu1</li>
+            <li>Menu2</li>
+            <li>Menu3</li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>HTML5</h2>
+        <article>
+
+            <h2>What is html5(video)</h2>
+            <video src="video_for_ass2.mp4" width="350" controls></video>
+
+        </article>
+
+
+        <article>
+
+            <h2>Image</h2>
+            <img src="image_for_ass2.jpg" alt="web design" width="400" height="200">
+
+            <aside>
+                <h2>Canvas</h2>
+                <canvas id="myCanvas" width="150" height="50"></canvas>
+            </aside>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2015 WDT. All rights reserverd.</p>
+    </footer>
+
+    <script>
+        let c = document.getElementById("myCanvas");
+        let ctx = c.getContext("2d");
+        ctx.fillStyle = "#EAC117";
+        ctx.fillRect(0, 0, 150, 75);
+    </script>
+
+</body>
+
+</html>
